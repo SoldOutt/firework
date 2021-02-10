@@ -117,7 +117,7 @@ function sleep(minutes){
         var string = time.getHours() + ":" + time.getMinutes() + ":"+ time.getSeconds();
         console.log(string);
         h1.innerHTML = string;
-        if(time.getMinutes()==0&& time.getSeconds()==0 time.getHours()==0){
+        if(time.getMinutes()==0&& time.getSeconds()==0 && time.getHours()==0){
           Run();
           h1.style.display= 'none';
           var section = document.querySelector('section');
